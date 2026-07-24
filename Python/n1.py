@@ -1,16 +1,16 @@
 import numpy as np
 
-np.__version__
+"""Array initialisation """
+# 1D array 
+a=np.array([1,2,3])
+print(a)
 
-# n=np.array([1,2,5,7],[5,8,6,3])
-# print(n) 
+# 2D array 
+b=np.array([(15,2,3,5),(4,5,6,8)])
+print(b)
 
-
-# It will generate in number random values.
-# va=np. random.rand(5,10)
-# print(va)
-
-nr=np.random.randn(6)
-print(nr)
+# 3D array 
+c=np.array([(1,2,3,4),(5,6,7,8),(9,1,2,3)])
+print(c)
 
 
