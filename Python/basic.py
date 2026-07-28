@@ -95,10 +95,116 @@
 
 """ WAPT CHECK WHETHER A GIVEN CHARACTER IS ALPABHENT OR NOT , IF IT IS ALPHABET THEN PRINT HELLO WOROLD """
 
-str=input("Enter any world : ")
-# if str.isalpha():
-if "A"<=str<="Z" or "a"<=str<="z":
-    print("Hello World ")
+# str=input("Enter any world : ")
+# # if str.isalpha():
+# if "A"<=str<="Z" or "a"<=str<="z":
+#     print("Hello World ")
 
-# wapt a given check is upper case or not, if it is upper case then print that charcter.
-# wapt to check whether a given number is divisible by both 3 and 7 or not, if it is divisible by both then print number is divisible by both.
+"""wapt a given check is upper case or not, if it is upper case then print that charcter."""
+
+# str=input("Enter any words: ")
+# if str.isupper():
+#     print(f"Given string : {str}")
+
+
+"""wapt to check whether a given number is divisible by both 3 and 7 or not, if it is divisible by both then print number is divisible by both.is""" 
+# num=int(input("Enter any number : "))
+# if num%3==0 and num%7==0:
+#     print(f"Number is divisible by 3 and 7 are {num/3} and {num/7} respectively. ")
+
+"""WAPT CHECK WHETHER GIVEN NUMBER IS EVEN OR ODD."""
+# num=int(input("Enter the any number : "))
+# if num%2==0:
+#     print(f"The given number {num} is even")
+# else:
+#     print(f"The given number {num} is odd.")
+
+
+"""WAPT CHECK WHETHER A GIVEN NUMBER IS EVEN OR ODD, IF IT IS EVEN THEN SQUARE THE NUMBER AND IF IT ODD THEN CUBE THE NUMBER """
+
+# num=int(input("Enter the any number : "))
+# if num%2==0:
+#     print(f"")
+# else:
+#     print(f"The given number {num} is odd.")
+
+
+"""WAPT CHECK WHETHER A GIVEN CHARACTER IS VOWEL OR NOT """
+# vowels=["a","e","i","o","u","A","E","O","I","U"]
+# str=input("Enter any character : ")
+# if str in vowels :
+#     print(f"The given character {str} is vowels.")
+
+# else:
+#     print(f"The given character {str} is not vowels.")
+
+
+"""WAPT CHECK WHETHER A GIVEN CHARACTER CONSONANAT OR NOT."""
+
+# vowels=["a","e","i","o","u","A","E","O","I","U"]
+# str=input("Enter any character : ")
+# if str not in vowels and str.isalpha() :
+#     print(f"The given character '{str}' is Consonant.")
+
+# else:
+#     print(f"The given character '{str}' is not Consonant.")
+
+
+
+"""WAPT FIND THE LARGEST BETWEEN TWO NUMBERS"""
+# a=int(input("Enter the first number : "))
+# b=int(input("Enter the second number : "))
+# if a>b:
+#     print(f"{a} is greater than {b}.")
+# else:
+#     print(f"{b} is grater than {a}.")
+
+
+"""WAPT FIND THE SMALLEST BETWEEN TWO NUMBERS."""
+# a=int(input("Enter the first number : "))
+# b=int(input("Enter the second number : "))
+# if a<b:
+#     print(f"{a} is lower than {b}.")
+# else:
+#     print(f"{b} is lower than {a}.")
+
+"""WAPT CHECK THE GIVEN NUMBER IS OFF THREE DIGIT OR NOT"""
+# num=int(input("Enter any number :"))
+# if num>=100 and num<=999:
+#     print(f"{num} has three digit")
+# else:
+#     print(f"The num has no three digit.")
+
+
+"""WAPT CHECK WHETHER A GIVEN STRING IS PALINDROME OR NOT."""
+# str=input("Enter any string : ")
+# if str==str[::-1]:
+#     print(f"The given string '{str} is Palindrome.'")
+# else:
+#     print(f"The given string '{str} is not Palindrome.'")
+
+
+"""WAPT CHECK WHETHER A GIVEN NUMBER IS POSITIVE, NEGATIVE OR ZERO."""
+# num=int(input("Enter any number : "))
+# if num>0:
+#     print(f"The given number {num} is positive.")
+# elif num<0:
+#     print(f"The given number {num} is negative number.")
+# else:
+#     print(f"The given number {num} is zero.")
+
+
+"""WAPT FIND THE LARGEST AMONG THREE NUMBERS."""
+# a=int(input("Enter the first number : "))
+# b=int(input("Enter the second number : "))
+# c=int(input("Enter the third number : "))
+
+# if a>b and a>c:
+#     print(f"{a} is greater than {b} and {c}.")
+# elif b>a and b>c:
+#     print(f"{b} is greater than {a} and {c}")
+# else:
+#     print(f"{c} is greater than {a} and {b} ")                                                                                                
+
+"""WAPT FIND THE SMALLEST AMONG THREE NUMBERS."""
+"""WAPT CHECK WHETHER A GIVEN YEAR IS LEAP YEAR OR NOT."""
