@@ -74,10 +74,30 @@ arr4=np.array([list1,list2,list3])
 # print(type(arr4))
 
 """Zeros, Ones, Random and Identity Matrics and Vactors"""
-print(f"vector of zeros : {np.zeros(5)}")
-print(f"matrix of Zeros : {np.zeros((3,4))}") # zeros((rows, columns))
-print(f"Vector of ones : {np.ones(5)}")
-print(f"Matrix of Ones : {np.ones((4,5))}") # ones((rows, columns))
-print(f"Identity martix of dimension 2: {np.eye(2)}")
+# print(f"vector of zeros : {np.zeros(5)}")
+# print(f"matrix of Zeros : {np.zeros((3,4))}") # zeros((rows, columns))
+# print(f"Vector of ones : {np.ones(5)}")
+# print(f"Matrix of Ones : {np.ones((4,5))}") # ones((rows, columns))
+# print(f"Identity martix of dimension 2: {np.eye(2)}") # np.eye() gives an identity matrix.
+# print(f"Identity matrix of dimension 4: {np.eye(4)}")
+# print(f"random matrix of shape (4,4) \n{np.random.randint(low=1,high=100,size=(4,4))}")
+# if we use np.random.randint(low=0,high=10,size=(4,3))
 
+"""Reshaping, Ravel, Min, Max, Sorting"""
+# a=np.random.randint(1,100,30)
+# b=a.reshape(2,3,5) # reshape(matrix, rows , column) changes the shape of an array without altering its underlying data.
+# c=a.reshape(6,5) # here reshape(row, column)
+# print(f"Shape of a: {a}")
+# print(f"Shape of b: {b}")
+# print(f"Shape of c: {c}")
+
+"""Conditional Subsetting"""
+mat=np.random.randint(10,100,15).reshape(3,5)
+print(f"Matrix of random 2-digit number \n {mat}")
+print(f"Elements greater than 50 \n {mat[mat>50]}")
+
+# we can also use for find the boolean value according to our needs 
+print(mat>50)
+# after finding the boolean value then we use according to needs.
+print(mat*(mat>50))
 
