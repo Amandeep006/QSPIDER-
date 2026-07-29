@@ -208,3 +208,176 @@
 
 """WAPT FIND THE SMALLEST AMONG THREE NUMBERS."""
 """WAPT CHECK WHETHER A GIVEN YEAR IS LEAP YEAR OR NOT."""
+
+# year=int(input("Enter the year : "))
+# if year%4==0 and year%100!=0:
+#     print(f"The given {year} year is leap year")
+# elif year%400==0:
+#     print(f"The given {year} is a leap year")
+# else:
+#     print(f"The given {year} is not a leap year")
+
+
+
+"""WAPT CREATE A CALCULATOR TO PERFORM OPERATIONS LIKE +,-,*,/"""
+# a=int(input("Enter the first number : "))
+# b=int(input("Enter the second number : "))
+# print("Choose one operations : +, - , *, / ")
+# chose=input("Enter your operational Symbol : ")
+# if chose=="+":
+#     print(f"Addition of both the number {a+b}")
+# elif chose=="-":
+#     print(f"Subtraction of both the number {a-b}")
+# elif chose=="*":
+#     print(f"Multiplication of both the number {a*b}")
+# elif chose=="/":
+#     print(f"Division of both the number {a/b}")
+# else:
+#     print(f"You are not choice any symbol")
+
+
+
+"""WAPT TAKE A STUDENT PERCENTAGE AS INPUT AND DETERMINE THE GRADE BASED ON THE FOLLOWINF GIVEN CONDITION."""
+# 90 and above =A
+# 75-89 = B
+# 60-74=C
+# 40-59=D
+# below 40 =FAIL
+
+# per=float(input("Enter your percentage : "))
+# if per>=90:
+#     print(f"Grade A")
+# elif per >=75:
+#     print("Grade B")
+# elif per >=60:
+#     print("Grade C")
+# elif per>=40:
+#     print("Grade D")
+# else :
+#     print("You are fail")
+
+
+"""WAPT DETERMINE THE  AGE GROUP OF A PERSON BASED ON A GIVEN BELOW CONDITION."""
+# AGE                   OUTPUT
+# 60 AND ABOVE  -  ADULT
+# 20 TO 59      -  TEENAGE
+# BELOW 12      -  CHILD
+
+# age=int(input("Enter your age : "))
+
+
+
+
+
+
+""" WAPT TAKE A NUMBER (1-7) AS INPUT AND DISPLAY THE  CORRESPONDING DAY OF THE WEEK."""
+# print("Choise the number from 1 to 7 : ")
+# n=int(input("Enter your choice : "))
+# if n==1:
+#     print("Monday")
+# elif n==2:
+#     print("Tuesday")
+# elif n==3:
+#     print("Wednesday")
+# elif n==4:
+#     print("Thursday")
+# elif n==5:
+#     print("Friday")
+# elif n==6:
+#     print("Saturday")
+# elif n==7:
+#     print("Sunday")
+# else:
+#     print("Your choice is incorrect")
+
+
+"""WAPT CALCULATE THE TAX BASED ON THE SALARY."""
+# above 20lak 30%
+# above 15lak 15%
+# above 12lak 10%
+# below 12lak No tax 
+
+# sal =int(input("Enter your salary : "))
+# if sal>=2000000:
+#     print(f"Tax Payable : {((sal-2000000)*30)/100 + ((sal-1500000)*15)/100 + (sal*10)/100}")
+# elif sal>1500000:
+#     print(f"{((sal-1500000)*15)/100 + (sal*10)/100}")
+# elif sal> 1200000:
+#     print(f"Tax Payable : {(sal*10)/100}")
+
+# else :
+#     print(f"Your {sal} is 12Lakh or below, So You don't need to pay tax. ")
+
+
+
+"""WAPT TO CHECK WHETHER A GIVEN CHARACTER IS VOWELS OR CONSONANT """
+# ch=input("Enter any character : ")
+# if ch.isalpha():
+#     if ch in "AEIOUaeiou":
+#         print(f"The given character '{ch}' is vowel.")
+#     else :
+#         print(f"The given  character '{ch}' is consonant.")
+
+# else:
+#     print(f"The given character '{ch}' is not a alphabet")
+
+
+"""WAPT THAT TAKES AGE AND INCOME HAS INPUT AND BASED ON THE GIVEN BELOW CONDITION  CHECK WHETHER PERSON IS ELIGIBLE TO LOAN OR NOT.
+1. AGE SHOULD ABOVE 21 
+2. IF AGE IS ABOVE 21 THEN CHECK IF INCOME IS MORE THAN 30K PER MONTH THEN ELIGIBLE FOR LOAN.
+3. 
+"""
+
+# age=int(input("Enter your age : "))
+# income =int(input("Enter your income : "))
+
+# if age >21:
+#     if income >30000:
+#         print("You are eligible for loan.")
+#     else:
+#         print("Your income is too low for the loan.")
+
+# else:
+#     print("Your age is to minimum.")
+
+""" WAPT CALCULATE THE BONUS OF AN EMPLOYEE USING NESTED IF STATEMENT. 
+THE COMPANY HAS FOLLOWING RULES :
+1. IF THE EMPLOYEE HAS 5 OR MORE YEARS OF EXPERIENCE AND IF THE EMPLOYEE SALARY IS LESS THAN 50K THEN EMPLOYEE WILL GET BONUS OF 10K OTHERWISE 5K.
+2. IF EMPLOYEE HAS LESS THAN 5 YEARS OF EXPERIENCE, THE EMPLOYEE IS NOT ELIGIBLE FOR A BONUS.
+"""
+# sal=int(input("Enter your salary : "))
+# exp=int(input("Enter your workine experience : "))
+# if exp>5:
+#     if sal>50000:
+#         print("The employee get 10k bonus.")
+#     else:
+#         print("The employee does not get bonus.")
+
+# else:
+#     print("The employee is not eligible for a bonus.")
+
+
+"""WAPT CALCULATE THE GRADE OF A STUDENT USING NESTED-IF STATEMENT.
+1. IF STUDENT'S MARKS ARE 35 OR ABOVE , STUDENT IS PASS .
+   A.  IF MARKS ARE 90 TO 100 PRINT GRADE 'A'.
+   B.  ELSE-IF MARKS ARE 75 TO 89 PRINT GRADE 'B'.
+   C.  ELSE-IF MARKS ARE 60 TO 74 PRING GRADE 'C'.
+   D.  OTHERWISE PRINT GRADE 'D'.
+
+2. IF STUDENTS MARKS ARE BELOW 35 PRINT FAIL.
+"""
+
+# marks=int(input("Enter Your Marks : "))
+# if marks>35:
+#     if marks >=90:
+#         print("Grade A")
+#     elif marks>=75:
+#         print("Grade B")
+#     elif marks >=60:
+#         print("Grade C")
+#     else :
+#         print("Grade D")
+# else:
+#     print("You are fail.")
+
+
