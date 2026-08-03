@@ -204,4 +204,87 @@
 # print(f"using len : {len(str(abs(a)))}")
 
 
-""" """
+"""WAPT ADD ALL THE DIGITS OF A GIVEN USIG WHILE LOOP  """
+# n=int(input("Enter the number : "))
+# sum=0
+
+# # whenever you want to find the last number from the number, SO you can use num%10.
+# # whenver you want to smaller the number , you can use num//10.
+# while n!=0:
+#     rem=n%10
+#     sum+=rem
+#     n=n//10
+
+# print(f"Sum of all digits of given number : {sum}")
+
+
+"""WAPT MULTIPLY ALL THE DIGIT PRESENT INSIDE THE GIVEN NUMBER . """
+# n=int(input("Enter the number : "))
+# mul=1
+# while n!=0:
+#     rem=n%10
+#     mul*=rem
+#     n=n//10
+
+# print(f"Multiply of all digits of given number : {mul}")
+
+"""WAPT ADD ALL THE DIGITS OF A GIVEN NUMBER ADD ONLY WHEN DIGIT MUST BE EVEN OTHERWISE SKIP. """
+
+# n=int(input("Enter the number : "))
+# sum=0
+
+# while n!=0:
+#     rem=n%10
+#     if rem%2==0:
+#         sum+=rem
+#     n=n//10
+
+# print(f"Sum of all digits of given number : {sum}")
+
+"""WAPT REVERSE A GIVEN NUMBER USING WHILE LOOP."""
+# n=int(input("Enter the number : "))
+# rev=0
+# while n!=0:
+#     rem=n%10
+#     rev=10*rev+rem
+#     n//=10
+
+# print(f"Reverse of a given number : {rev}")
+
+
+"""WAPT CHECK WHETHER A GIVEN NUMBER IS PALINDROME OR NOT WHILE WHILE LOOP."""
+
+# n=int(input("Enter the number : "))
+# a=n
+# rev=0
+# while n!=0:
+#     rem=n%10
+#     rev=10*rev+rem
+#     n//=10
+
+# if a==rev:
+#     print(f"The given number is Palindrome-- {a}")
+# else:
+#     print(f"The given number is not Palindrome --{a}")
+
+"""WAPT CHECK WHETHER A GIVEN NUMBER IS ARMSTRONG NUMBER. """
+# n=int(input("Enter the number : "))
+# n2=n
+# a=n2
+# arm=0
+# count=0
+# while n!=0:
+#     count+=1
+#     n//=10
+# print(f"The digit of given number is {count}")
+# while n2!=0:
+#     rem=n2%10
+#     arm=arm+rem**count
+#     n2//=10
+
+# if a==arm:
+#     print(f"The given number is armstrong number ")
+
+# else:
+#     print(f"The given number is not armstrong number")
+
