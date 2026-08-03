@@ -170,7 +170,7 @@ df3 = pd.read_csv("SQL\EMP_Table.csv")
 
 """Sum of two columns and assign to new column"""
 # df3["SWC"]=df3["SAL"]+df3["COMM"]
-df3["SWC"]=df3[["SAL","COMM"]].sum(axis=1) # it sum both tha table 
+# df3["SWC"]=df3[["SAL","COMM"]].sum(axis=1) # it sum both tha table 
 # print(df3)
 
 # Sorted by values :
@@ -178,5 +178,7 @@ df3["SWC"]=df3[["SAL","COMM"]].sum(axis=1) # it sum both tha table
 
 # Use "inplace=True" to make the changes reflected on the original DataFrame.
 # print(df3.sort_values(by="SWC",inplace=True))
-print(df3)
+# print(df3)
 
+# print(df3[df3["SAL"]>2000])
+print(df3[df3["ENAME"]=="SMITH"])
