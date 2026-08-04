@@ -288,3 +288,84 @@
 # else:
 #     print(f"The given number is not armstrong number")
 
+"""WAPT TAKE A STRING AS INPUT AND DISPLAY EACH AND EVERY CHARACTER OF A STRING LINE BY LINE."""
+# ch=input("Enter the string : ")
+# i=0
+# end=len(ch)-1
+# while i <end:
+#     print(ch[i])
+#     i+=1
+
+
+# print(list(ch))
+
+
+"""HOW TO TAKE A INPUT FOR LIST, TOUPLE, SET, DICTIONARY."""
+
+ # eval(): it is used for print exact value which you type beacause normal input just covert your input into string that the same eval remove the quotes from the given input 
+# ch=eval(input("Enter your input :"))
+# print(ch)
+
+"""WAPT DISPLAY EACH AND EVERY ELEMENT OF A LIST LINE BY LINE ."""
+
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# while i<=end:
+#     print(ch[i])
+#     i+=1
+
+"""WAPT TAKE A LIST AS INPUT AND DISPLAY THOSE ELEMENTS WHICH ARE PRESENT AT EVEN INDEX NUMBER """
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# while i<=end:
+#     if i%2==0:
+#         print(i, ch[i])
+#     i+=1
+
+
+"""WAPT A PROGRAM ADD ALL THE ELEMENTS PRESENT INSIDE THE GIVEN LIST"""
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# sum=0
+# while i<=end:
+#     sum=sum+ch[i]
+#     i+=1
+
+# print(f"Sum of all elements of the list : {sum}")
+
+
+"""WAPT PRODGRAM MULTIPLY ALL THE ELEMENSTS PRESENT INSIDE THE GIVEN LIST."""
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# mul=1
+# while i<=end:
+#     mul=mul*ch[i]
+#     i+=1
+
+# print(f"Multiply of all elements of the list : {mul}")
+
+"""WAPT  ADD ALL THOSE ELEMENTS OF A LIST WHICH ARE PRESENT AT EVEN INDEX NUMBER."""
+# ch=eval(input("Enter your list : "))
+# i=0
+# sum=0
+# end=len(ch)-1
+# while i<=end:
+#     if i%2==0:
+#         sum+=ch[i]
+#     i+=1
+# print(f"Sum of all even index elements of a list : {sum}")
+
+
+"""WAPT ADD ALL THE ELEMENTS OF A LIST WHICH ARE ODD """
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# sum=0
+# while i<=end:
+#     if ch[i]%2!=0:
+#         sum+=ch[i]
+#     i+=1
