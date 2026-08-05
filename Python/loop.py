@@ -369,3 +369,58 @@
 #     if ch[i]%2!=0:
 #         sum+=ch[i]
 #     i+=1
+
+""" WAPT ADD ALL THE ELEMENTS WHICH ARE PRESENT AT EVEN INDEX NO. AS WELL AS ODD INDEX NUMBER SEPARATELY """
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# sum_ev=0
+# sum_od=0
+# while i<=end:
+#     if i%2==0:
+#         sum_ev+=ch[i]
+#     else:
+#         sum_od+=ch[i]
+#     i+=1
+
+# print(f"Sum of all even index value : {sum_ev}")
+# print(f"Sum of all even index value : {sum_od}")
+
+""" WAPT A LIST AS A INPUT AND ADD ALL THE EVEN ELEMENTS AND ODD SEPARTELY  """
+# ch=eval(input("Enter your list : "))
+# end=len(ch)-1
+# i=0
+# sum_ev=0
+# sum_od=0
+# while i<=end:
+#     if ch[i]%2==0:
+#         sum_ev+=ch[i]
+#     else:
+#         sum_od+=ch[i]
+#     i+=1
+
+# print(f"Sum of all even index value : {sum_ev}")
+# print(f"Sum of all even index value : {sum_od}")
+
+
+""" FOR LOOP """
+
+"""WAPT TO TAKE A STRING AS INPUT AND DISPLAY EACH AND EVERY CHARACTER OF A STRING LINE BY LINE."""
+# ch=input("Enter your string : ")
+# for v in ch :
+#     print(v)
+
+"""WAPT TAKE A LIST AS INPUT AND SQUARE EACH AND EVERY ELELMENT PRESENT INSIDE THE LIST."""
+# l=eval(input("Enter the list: "))
+# print("Sqaure of each element of list : ")
+# for i in l:
+#     print(i**2)
+
+"""WAPT TAKE A TUPLE AS INPUT AND SUM EACH AND EVERY ELELMENT PRESENT INSIDE THE tuple."""
+# l=eval(input("Enter the list: "))
+# sum=0
+# print("Sqaure of each element of list : ")
+# for i in l:
+#     sum+=i
+
+# print(f"sum of all elements : {sum}")
