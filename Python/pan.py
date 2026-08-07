@@ -181,4 +181,4 @@ df3 = pd.read_csv("SQL\EMP_Table.csv")
 # print(df3)
 
 # print(df3[df3["SAL"]>2000])
-print(df3[df3["ENAME"]=="SMITH"])
+# print(df3[df3["ENAME"]=="SMITH"])
