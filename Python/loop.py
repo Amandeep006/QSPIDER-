@@ -424,3 +424,71 @@
 #     sum+=i
 
 # print(f"sum of all elements : {sum}")
+
+
+""" WAPT TO TAKE AS STRING AS INPUT AND DIPLAY EACH CHARACTER OF A  STRING LINE BY LINE."""
+# ch=input("Enter the string : ")
+# for i in range(0,len(ch)):
+#     print(ch[i])
+
+
+"""WAPT COUNT HOW MANY NUMBER OF VOWELS DO WE HAVE IN A STRING."""
+# ch=input("Enter your string : ")
+# count=0
+# for i in range(0,len(ch)):
+#     if ch[i] in "aeiouAEIOU":
+#         count+=1
+
+
+# print(f"There is {count} vowels present in the string.")
+
+
+"""WAPT COUNT THE NUMBER OF CONSONANT PRESENT INSIDE THE GIVEN STRING"""
+# ch=input("Enter your string : ")
+# count=0
+# for i in range(0,len(ch)):
+#     if ch[i] not in "aeiouAEIOU":
+#         count+=1
+
+
+# print(f"There is {count} vowels present in the string.")
+
+"""WAPT TAKE A LIST AS INPUT AND ADD ALL THE ELEMENTS PRESENT INSIDE THE LIST USING FOR LOOP."""
+# l=eval(input("Enter the list : "))
+# sum=0
+# for i in l:
+#     sum+=i
+
+# print(f"The sum of all elements : {sum}")
+
+"""WAPT MULTIPLY ALL THE ELEMENTS PRESENT INSIDE THE GIVEN LIST."""
+# l=eval(input("Enter the list : "))
+# mult=1
+# for i in l:
+#     mult*=i
+
+# print(f"The multiple of all elements : {mult}")
+
+"""WAPT ADD ALL THE EVEN NUMBER PRESENT INSIDE THE GIVEN LIST."""
+"""WAPT ADD ALL THOSE ELEMENT WHICH ARE PRESENT INSIDE THE LIST , WHICH IS DIVISIBLE BY BOTH 3 AND 5."""
+"""WAPT PRINT THE FACTORIAL OF A GIVEN NUMBER"""
+# n=int(input("Enter the number : "))
+# mul=1
+# for i in range(1,n+1):
+#     mul*=i
+
+# print(f"factorial of {n} number : {mul}")
+
+"""WAPT PRINT THE FIBONACCI SERIES UPTO THE GIVEN SERIES."""
+n=int(input("Enter the series: "))
+a=0
+b=1
+print("-------------")
+print(f"Fibonacci Series : {a} {b}", end=" ")
+for i in range(n-2):
+    c=a+b
+    print(c,end=" ")
+    a,b=b,c
+
+
+
