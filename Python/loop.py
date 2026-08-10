@@ -480,15 +480,85 @@
 # print(f"factorial of {n} number : {mul}")
 
 """WAPT PRINT THE FIBONACCI SERIES UPTO THE GIVEN SERIES."""
-n=int(input("Enter the series: "))
-a=0
-b=1
-print("-------------")
-print(f"Fibonacci Series : {a} {b}", end=" ")
-for i in range(n-2):
-    c=a+b
-    print(c,end=" ")
-    a,b=b,c
+# n=int(input("Enter the series: "))
+# a=0
+# b=1
+# print("-------------")
+# print(f"Fibonacci Series : {a} {b}", end=" ")
+# for i in range(n-2):
+#     c=a+b
+#     print(c,end=" ")
+#     a,b=b,c
+
+"""WAPT PRIONT ALL THE FACOTRS OF A GIVEN NUMBER"""
+# n=int(input("Enter the number : "))
+# print(f" factors of {n} : ", end=" ")
+# for i in range(1,n+1):
+#     if n%i==0:
+#         print(i, end=" ")
+
+
+"""WAPT COUNT NUMBER OF FACTORS PRESENT FOR A GIVEN NUMBER. """
+
+# count=0
+# n=int(input("Enter the number : "))
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+
+# print(f"The no. of factors are {count}")
+
+"""WAPT CHECK WHETHER A GIVEN NUMBER IS PRIME OR NOT. """
+# count=0
+# n=int(input("Enter the number :"))
+# for i in range(1,n+1):
+#         if n%i==0:
+#                 count+=1
+
+
+# if count ==2:
+#         print("The given number is prime.")
+# else:
+#         print("The given number is not prime number.")
 
 
 
+"""WAPT PRINT ALL THE PRIME NUMBERS BETWEEN 5 TO 20."""
+
+# for i in range(5,21):
+#         count=0
+#         for j in range(1,i+1):
+#                 if i%j==0:
+#                         count+=1
+#         if count==2:
+#             print(f"{i} is prime number")
+                        
+
+"""WAPT PRINT ALL THE PRIME NUMBERS BETWEEN THE GIVEN RANGE."""
+# n1=int(input("Enter the starting number : "))
+# n2=int(input("Enter the ending number : "))
+# for i in range(n1,n2+1):
+#         count=0
+#         for j in range(1,i+1):
+#                 if i%j==0:
+#                         count+=1
+#         if count==2:
+#             print(f"{i} is prime number")
+
+""" WAPT FINDOUT THE HCF OF TWO NUMBERS """
+# n1=int(input("Enter first number : "))
+# n2=int(input("Enter second number :"))
+# if n1<n2:
+#     small=n1
+# else:
+#     small=n2
+
+
+# for i in range(1,small+1):
+#     if n1%i==0 and n2%i==0:
+#         hcf=i
+
+# print(hcf)
+
+
+""" """
