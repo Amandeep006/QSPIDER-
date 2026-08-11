@@ -561,4 +561,99 @@
 # print(hcf)
 
 
-""" """
+"""WAPT CALCULATE LCM FOR A GIVEN TWO NUMBERS. """
+# n1=int(input("Enter first number : "))
+# n2=int(input("Enter second number :"))
+# if n1<n2:
+#     small=n1
+# else:
+#     small=n2
+
+
+# for i in range(1,small+1):
+#     if n1%i==0 and n2%i==0:
+#         hcf=i
+
+# lcm=(n1*n2)/hcf
+# print(f"LCM of a numbers : {lcm}")
+
+"""WAPT CHECK WHETHER A GIVEN NUMBERS ARE CO-PRIME OR NOT. """
+
+# n1=int(input("Enter first number : "))
+# n2=int(input("Enter second number :"))
+# if n1<n2:
+#     small=n1
+# else:
+#     small=n2
+
+
+# for i in range(1,small+1):
+#     if n1%i==0 and n2%i==0:
+#         hcf=i
+
+# if hcf==1:
+#     print("The given numbers are co-prime to each other.")
+# else:
+#     print("The given numbers are not co-prime to each other.")
+
+
+"""WAPT CHECK WHETHER NUMBER IS A PERFECT NUMBER OR NOT."""
+# n1=int(input("Enter your number : "))
+# n2=n1
+# sum=0
+# for i in range(1,n1):
+#     if n1%i==0:
+#         sum+=i
+
+# if n2==sum:
+#     print(f"{n2} is a perfect number.")
+# else:
+#     print(f"{n2} is not a perfect number.")
+
+"""WAPT REMOVE DUPLICATE OR REPEATED  ELEMENT FROM THE GIVEN LIST."""
+# l=eval(input("Enter the list : "))
+# n=[]
+# for i in l:
+#     if i not in n:
+#         n.append(i)
+
+# print(n)
+
+"""WAPT ADD UNIQUE ELEMENTS INSIDE THE GIVEN LIST."""
+# l=eval(input("Enter the list : "))
+# n=[]
+# sum=0
+# for i in l:
+#     if i not in n:
+#         n.append(i)
+#         sum+=i
+
+# print(f"Sum of unique elements which is present inside the list : {sum}")
+
+"""WAPT ADD ALL THE REPEATED ELEMENTS ONLY."""
+
+# l=eval(input("Enter the list : "))
+# n=[]
+# sum=0
+# for i in l:
+#     if i not in n:
+#         n.append(i)
+
+# for i in n:
+#     if l.count(i)>1:
+#         sum+=i*l.count(i)
+
+# print(f"The sum of all repeated elements : {sum}")
+
+
+"""WAPT ADD THOSE ELEMENT WHICH ARE NON REPEATING INSIDE A GIVEN LIST."""
+l=eval(input("Enter the list : "))
+n=[]
+sum=0
+for i in l:
+    if i not in n:
+        n.append(i)
+        if i in n:
+            sum+=i
+
+print(f"Sum of unique elements which is present inside the list {n} : {sum}")
