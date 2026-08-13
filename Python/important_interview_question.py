@@ -70,4 +70,101 @@ OUTPUT--> NOHTYP NI EDOC OT EVOL EW.
 # print(out)
 
 
+"""WRPT SOLVE THE GIVEN BELOW REQUIREMENT 
+INPUT---> A4B3C3
+OUPTUT--> AAAABBBCCC
+"""
 
+# repelication opertor : "Hello"*4---> "HelloHelloHelloHello"
+# s=input("Enter the input: ")
+# out=""
+# for i in s:
+#     if i.isalpha():
+#         x=i
+#     else:
+#         d=int(i)
+#         out=out+x*d
+
+# print(out)
+
+"""
+WRPT SOLVE THE GIVEN BELOW REQUIREMENT 
+INPUT---> B3C2A4
+OUTPUT-->AAAABBBCC
+"""
+#sorted()- it is build-in function which is used to sort the datatype but in the list form.
+# s=input("Enter the input: ")
+# out=""
+# for i in s:
+#     if i.isalpha():
+#         x=i
+#     else:
+#         d=int(i)
+#         out=out+x*d
+# v=sorted(out)
+# res="".join(v)
+# print(res)
+
+"""
+WAPT COUNT THE OCCURANCE OF EACH AND EVERY CHARCTER PRESENT INSIDE THE GIVEN STRING.
+INPUT--> ABABCA
+OUTPUT--> {"A":3,"B":2,"C":1}
+"""
+
+# s=input("Enter the string :")
+# d={}
+# for i in s:
+#     d[i]=d.get(i,0)+1
+
+# print(d)
+
+"""
+WAPT COUNT THE OCCURANCE OF EACH AND EVERY CHARCTER PRESENT INSIDE THE GIVEN STRING.
+INPUT--> ABABCA
+OUTPUT--> A OCCURED 3 TIMES 
+          B OCCURED 2 TIMES 
+          C OCCURED 1 TIMES 
+"""
+# s=input("Enter the string :")
+# d={}
+# for i in s:
+#     d[i]=d.get(i,0)+1
+
+# for i in d:
+#     print(f"{i} occured {d.get(i)} times")
+
+"""
+WAPT SOLVE THE BELOW GIVEN REQUIREMENT
+INPUT--> ABABCA
+OUTPUT-->3A2B1C
+"""
+# s=input("Enter the string :")
+# d={}
+# for i in s:
+#     d[i]=d.get(i,0)+1
+# out=""
+# for i in d:
+#     # print(f"{d[i]}{i}",end="")
+#     """convert it into string """
+#     out=out+str(d[i])+i
+
+# print(out)
+
+"""WAPT TAKE A STRING AS INPUT, ASSUME INPUT STRING CONTAINS ONLY ALPHABET AND DIGITS, WRITE A CODE TO SORT CHARACTERS OF A STRING FIRST APHABET SYMBOL FOLLOWED BY DIGIT.
+INPUT---> D5A2B1
+OUPTPUT--> ABD125
+"""
+
+s=input("Enter the string : ")
+a="" 
+d=""
+for i in s:
+    if i.isalpha():
+        a+=i
+
+    else: 
+        d+=i
+
+out=sorted(a)+sorted(d)
+res="".join(out)
+print(res)
