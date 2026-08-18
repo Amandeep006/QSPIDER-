@@ -155,16 +155,104 @@ INPUT---> D5A2B1
 OUPTPUT--> ABD125
 """
 
-s=input("Enter the string : ")
-a="" 
-d=""
-for i in s:
-    if i.isalpha():
-        a+=i
+# s=input("Enter the string : ")
+# a="" 
+# d=""
+# for i in s:
+#     if i.isalpha():
+#         a+=i
 
-    else: 
-        d+=i
+#     else: 
+#         d+=i
 
-out=sorted(a)+sorted(d)
-res="".join(out)
-print(res)
+# out=sorted(a)+sorted(d)
+# res="".join(out)
+# print(res)
+
+
+"""WAPT TO SOLVE GIVEN BELOW REQUIREMENT
+INPUT---> A4B5C4
+OUTPUT---> AEBHCG
+"""
+
+# s=input("Enter the string : ")
+# out=""
+# for i in s:
+#     if i.isalpha():
+#         out+=i
+#         a=i
+#     else:
+#         d=int(i)
+#         e=ord(a) # Ord means ordinal 
+#         out=out+chr(d+e)
+
+# print(out)
+
+"""
+WAPT REMOVE CHARACTERS AT EVEN INDEX NUMBER
+DESCRIPTION :  WRITE A PYTHON PROGRAM THAT PRINTS THE STRING S WITHOUT THE CHARACTER LOCATED AT EVEN INDEX.
+IF STRING IS EMPTY OR HAS ONLY ONE CHARACTER PRINT IT WITHOUT ANY CHANGE ?
+
+INPUT   OUTPUT
+"MANGO"   "AG"
+"ORANGE"   "RNE"
+"PIZZA"    "IZ"
+"A"         "A"
+""          ""
+
+"""
+
+# s=input("Enter the string : ")
+# if len(s)==0 and len(s)==1:
+#     print(s)
+
+# else:
+#     print(s[1::2])
+
+    
+"""
+WAPT PRINT FIRST AND LAST 3 CHARACTERS OF THE STRING, IF THE STRING HAS LESS THAN 6 CHARCTERS THEN PRINT AN EMPTY STRING.
+
+INPUT     OUTPUT
+"RED"       "EMPTY STRING" 
+"STUDENT"     "STUNTS"
+"RESEARCH "   RESRCH
+"""
+
+# s=input("Enter your string : ")
+# out=""
+# if len(s)<6:
+#     print("Empty")
+# else:
+#     a=s[0:3]
+#     b=s[-3:]
+#     out=a+b
+#     print(out)
+
+
+"""
+WAPT PRINT THE CHARACTER OF A STRING AT EVEN INDEX NUMBER AND ALL INDEX NUMBER IN THE GIVEN BELOW SITUATION
+INPUT---> HOLIDAY
+OUTPUT ---> 
+CHARACTER PRESENT AT EVEN INDEX NUMBER IS "HLDY"
+CHARACTER PRESENT AT ODD INDEX NUMBER IS "OION"
+"""
+
+
+# s=input("Enter your string : ")
+# ev="" 
+# od=""
+# for i in range(0,len(s)):
+#     if i%2==0:
+#         ev+=s[i]
+#     else:
+#         od+=s[i]
+
+# print(f"CHARACTER PRESENT AT EVEN INDEX NUMBER IS {ev}")
+# print(f"CHARACTER PRESENT AT ODD INDEX NUMBER IS {od}")
+
+# print(f"CHARACTER PRESENT AT EVEN INDEX NUMBER IS {s[::2]}")
+# print(f"CHARACTER PRESENT AT ODD INDEX NUMBER IS {s[1::2]}")
+
+
+"""WAPT COUNT THE OCCURANCE OF VOWEL INSIDE A STRING"""
