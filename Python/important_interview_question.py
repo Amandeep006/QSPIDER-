@@ -256,3 +256,15 @@ CHARACTER PRESENT AT ODD INDEX NUMBER IS "OION"
 
 
 """WAPT COUNT THE OCCURANCE OF VOWEL INSIDE A STRING"""
+# s=input("Enter the string :")
+# count=0
+# for i in s:
+#     if i in "aieouAEIOU":
+#         count+=1
+
+# print(f"{count}cowels are present in string.")
+
+
+num=eval(input())
+x=str(num)
+print(x.resplit(",") and x.resplit("."))
