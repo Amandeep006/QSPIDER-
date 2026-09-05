@@ -383,3 +383,31 @@ THE COMPANY HAS FOLLOWING RULES :
 
 
 
+"""********************************************************************"""
+# n=int(input("Enter the number : "))
+# out=""
+# for i in range(n,0,-1):
+#    for j in range(n,0,-1):
+#         x=str(j)*i
+#         out+=x
+#    print(out)
+#    out=""
+
+
+
+def seq(n,a):
+
+    if n>0:
+        print(n, end=" ")
+        seq(n-5,a)
+    elif n<0: 
+        print(n,end=" ")
+        seq(n-5,a)
+    elif n==-a:
+        print(n,end=" ")
+    
+
+n=int(input("Enter the number : "))
+a=n
+seq(n,a)
+

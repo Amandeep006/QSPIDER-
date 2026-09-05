@@ -265,6 +265,8 @@ CHARACTER PRESENT AT ODD INDEX NUMBER IS "OION"
 # print(f"{count}cowels are present in string.")
 
 
-num=eval(input())
-x=str(num)
-print(x.resplit(",") and x.resplit("."))
+# num=eval(input())
+# x=str(num)
+# print(x.resplit(",") and x.resplit("."))
+
+
