@@ -270,3 +270,28 @@ CHARACTER PRESENT AT ODD INDEX NUMBER IS "OION"
 # print(x.resplit(",") and x.resplit("."))
 
 
+"""
+WAPT TO PRINT THE OCCURANCE OF THE WORDS.
+INPUT --> MOHAN ROHAN MOHAN SOHAN 
+OUTPUT--> { "MOHAN": 2, "ROHAN": 1}
+
+"""
+
+s=input("Enter the words : ")
+l=s.split()
+d={}
+for i in l:
+    d[i]=d.get(i,0)+1
+
+print(d)
+for k in d.keys:
+    print(k)
+
+
+"""
+WAPT FIND THE WORD WITH HIGHEST NUMBER OF OCCURANCE.
+WAPT FIND THE WORD WITH THE SECOND HIGHEST OCCURANCE.\ THIRD \FOURTH \FIFTH OCCURANCE.
+
+
+
+"""

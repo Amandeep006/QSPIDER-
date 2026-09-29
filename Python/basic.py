@@ -395,19 +395,19 @@ THE COMPANY HAS FOLLOWING RULES :
 
 
 
-def seq(n,a):
+# def seq(n,a):
 
-    if n>0:
-        print(n, end=" ")
-        seq(n-5,a)
-    elif n<0: 
-        print(n,end=" ")
-        seq(n-5,a)
-    elif n==-a:
-        print(n,end=" ")
+#     if n>0:
+#         print(n, end=" ")
+#         seq(n-5,a)
+#     elif n<0: 
+#         print(n,end=" ")
+#         seq(n-5,a)
+#     elif n==-a:
+#         print(n,end=" ")
     
 
-n=int(input("Enter the number : "))
-a=n
-seq(n,a)
+# n=int(input("Enter the number : "))
+# a=n
+# seq(n,a)
 
