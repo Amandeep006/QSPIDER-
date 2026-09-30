@@ -1,10 +1,9 @@
-def s1():
-    print("method s1")
+# from Logic.logic1 import *
+# print(add(2,3))
 
-def s2():
-    print("method s2")
 
-if __name__=="__main__":
-    s1()
-    s2()
 
+from Logic import *
+
+print(add(2,3))
+print(sub(6,3))
