@@ -10,7 +10,7 @@ database : In stores the data in structured way(in rows and columns).
 datawharehouse : In storse the data in unstructured ways (audio, video, docs,pdf,etc).
 3. 
 database : mysql, sql, postgressql etc.
-datawharehouse : cloud, google-cloud, microsoft-azure etc.
+datawharehouse : cloud, google-cloud, microsoft-azure etc. 
 
 
 
