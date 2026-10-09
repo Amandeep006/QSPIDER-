@@ -144,7 +144,7 @@ OUTPUT-->3A2B1C
 #     d[i]=d.get(i,0)+1
 # out=""
 # for i in d:
-#     # print(f"{d[i]}{i}",end="")
+#     print(f"{d[i]}{i}",end="")
 #     """convert it into string """
 #     out=out+str(d[i])+i
 
@@ -277,15 +277,15 @@ OUTPUT--> { "MOHAN": 2, "ROHAN": 1}
 
 """
 
-s=input("Enter the words : ")
-l=s.split()
-d={}
-for i in l:
-    d[i]=d.get(i,0)+1
+# s=input("Enter the words : ")
+# l=s.split()
+# d={}
+# for i in l:
+#     d[i]=d.get(i,0)+1
 
-print(d)
-for k in d.keys:
-    print(k)
+# print(d)
+# for k in d.keys:
+#     print(k)
 
 
 """
